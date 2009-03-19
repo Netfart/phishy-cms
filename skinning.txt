@@ -1,0 +1,35 @@
+----- NETFART PHISHY CMS - SKINNING GUIDE -----
+
+
+TABLE OF CONTENTS =====
+
+I.       Introduction
+II.      Instructions.
+III.     Advanced Usage
+IV.    Appendix
+
+
+INTRODUCTION =====
+
+Welcome to the Skinning Guide to the Netfart.com Phishy CMS 0.0.0.1 platform.
+Here you will find all the information required in order to design your Phishy CMS to match your obviously horrendous taste in design and complete lack of talent as far as it comes to building websites and sandcastles.
+
+
+INSTRUCTIONS =====
+
+1. Open your brower of choice.
+2. Click here: http://www.amazon.com/CSS-Design-Dummies-Computer-Tech/dp/0764584251/
+3. Give them money.
+4. Stand by the mailbox and wait for the book to arrive.
+5. Learn CSS.
+6. Skin the cat.
+
+
+ADVANCED USAGE =====
+
+Try catching and skinning a rhino next.
+
+
+APPENDIX =====
+
+No one really knows why humans have it, but its there. Unless they took out yours. In which case, you needn't read this section.
