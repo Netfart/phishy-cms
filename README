@@ -1,0 +1,208 @@
+----- README ------
+
+Netfart.com Phishy CMS 0.0.0.1 ("Singing, Battery Operated, Plastic Big
+Mouth Bass Whose Full Name We Cannot Use Since It Is A Registered
+Trademark") 21 March 2009
+
+This is the README file for Phishy CMS, the Open Source Phishing
+Platform. It includes installation instructions, descriptions of options
+you can set, warnings, tips, and general info for administrators.
+Information on using Phishy CMS can be found in this document and if it
+can't, well, tough break.
+
+About =====
+
+Phishy CMS (pronounced "Phishy CMS") is a Free and Open Source Phishing
+platform. It enables you, the average Phisher, to deploy an
+enterprise-class framework which painlessly implements both killer
+features of a good Phishing Framework, namely, user/pass input and
+skinability.
+
+License =======
+
+This program is free software: you can redistribute it and/or modify it
+under the terms of the Netfart.com CI License ("Netfart.com Criminal
+Intents License for Software of Dubious Legality v 0.1" or NCIL),
+derived from the popular BSD license and available at
+netfart.com/license.
+
+In case you are one of those smart enough to have kept on reading rather
+than visiting the license page (since everyone ignores the license
+anyhow, particularly the criminals who are our intended audience) we
+have decided to include the NCIL right here smack dab in t3h middle of
+your README:
+
+* Copyright (c) 2009, Netfart.com * All rights reserved. * *
+Redistribution and use in source and binary forms, with or without *
+modification, are permitted provided that the following conditions are
+met:
+
+*     * Redistributions of source code must retain the above copyright *
+      notice, this list of conditions and the following disclaimer. *  
+ * Redistributions in binary form, must reproduce the above copyright
+
+*       notice, this list of conditions and the following disclaimer in
+the *       documentation and/or other materials provided with the
+distribution. *     * Redistribution and use will be only used for
+research, criminal activities,
+
+*       scamming and/or any other activity which will equally distribute
+wealth. *     * You must cause the software to provide, when running, a
+link to a valid source *       code of software, including all
+modifications and/or amendments added to source
+
+*       code, which will be made available to the end users of software.
+*     * Neither the name of the Netfart nor the *       names of its
+contributors may be used to endorse or promote products *       derived
+from this software without specific prior written permission.
+
+* * THIS SOFTWARE IS PROVIDED BY NETFART ''AS IS'' AND ANY * EXPRESS OR
+IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED *
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+
+* DISCLAIMED. MOREOVER, NETFART HEREBY SPECIFICALLY STATES THAT SOFTWARE
+WILL * DAMAGE YOUR COMPUTER AND YOU SHOULD NOT RUN IT IN ANY CASE. IN NO
+EVENT SHALL * NETFART BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY,
+
+* OR CONSEQUENTIAL DAMAGES, * (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF * SUBSTITUTE GOODS OR SERVICES;LOSS OF USE, DATA (AND IT
+WILL BE LOST), OR PROFITS; * OR BUSINESS INTERRUPTION) HOWEVER CAUSED
+AND ON ANY THEORY OF LIABILITY, WHETHER IN
+
+* CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+OTHERWISE) ARISING IN * ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ADVISED OF THE POSSIBILITY * OF SUCH DAMAGE.
+
+New this version ================
+
+Don't be a smartass; everything is fucking new in this version. Whaddaya
+think? We called it"0.0.0.1" just for shits and giggles?
+
+Prerequisites =============
+
+The following software packages are *required* for this software to run
+correctly.
+
+Windows:
+- PHP
+- MySQL
+- Minesweeper
+
+OS X:
+- PHP
+- MySQL
+- iTunes
+
+Linux/BSD/HPUX/PLAN9/SYMBIAN SMARTPHONES/ANALYTICAL ENGINE
+- PHP
+- MySQL
+- sudo
+
+iPhone
+- Cut and Paste
+- Lol
+- Buy symbian
+
+Installation ============
+
+Installing the basic Phishy Platform is really easy. It's one freaking
+file.
+
+you could unpack the tarball like so:
+
+tar zxf phishycms-0.0.0.1.tar.gz
+
+...which will make a phishycms subdirectory in your current directory.
+(If you don't have shell access on your Web server, you may have to
+unpack the tarball on your local computer and FTP the files to the
+server.)
+
+Or, if you're lazy (second vice we can pin on you with a high degree of
+confidence, Mr. or Mrs. Phishy McPhisherson!) just stick the file
+index.php in your site's root.
+
+But wait! There's more!
+
+You'll need to create a database with a table in it with 2 entire
+fields. One called "usern" and the other called "passw". If you can't
+pull that off without further instructions then you aren't really all
+that worthy of all the money you intend on scamming poor little widows
+out of anyhow.
+
+Fancy URLs ----------
+
+Since we only use one file, fancy URLs are more or less baked in. Just
+rename index.php to whatever floats your boat and point your HTACCESS at
+it. Easy as March 14th.
+
+Features ---
+
+Phishy CMS has two special features that make it ideal for all your
+phishing endeavors:
+
+1. A login box with "username", "password" and "submit" functionality.
+2. A fully skinnable interface to emulate the bank/insurance
+company/brokerage or online auction site of your choice.
+
+We believe that these features will empower any prospective afficianado
+of the phishing lifestyle by giving them the complete featureset
+required for phishing, straight out of the box (you can refer to it as a
+"batteries-included phishing framework" even though we wouldn't).
+
+Sitemaps --------
+
+Feel free to include a sitemap on your site.
+
+Themes ------
+
+"Themes" are generally provided by stealing the generated HTML and CSS
+from the site you're ripping off. Please contact the nearest Nigerian
+Prince for details.
+
+We have opted to use a table rather than DIV based approach to UI
+enablement so as to retain backwards compatibility with older sites you
+may wish to troll. Use of DIVs is possible but keep in mind that the
+custom CSS you hijack from whatever site you're trolling may break the
+DIVs. Also, please keep in mind that your site will look like crap in IE
+no matter what, that really isn't our fault yet we apologize
+nevertheless.
+
+Along with the use of tables we have commited multiple other atrocities
+which will be quite evident from the code. This was a design goal (build
+CMS in less than ten minutes by duct-taping code snippets from the
+internet so we could go out and have a beer while discussing the
+particulars of this README and the truly awesome NCIL that accompanies
+it and if you have a problem with runon sentences then fuck you.)
+
+Translation -----------
+
+We have hardcoded hebrew straight into the code. Yes, we're douches, but
+so are our prospective users; we haven't exactly been trying to avoid
+dick moves :/
+
+Backups -------
+
+You won't need to backup the system. Google and Microsoft will blacklist
+you within hours of launch, your system will not likely have enough time
+to fail.
+
+Upgrading =========
+
+If we ever release a newer version we would highly recommend you install
+it.
+
+Planned Features for version 0.0.0.2 ("3 Eyed Radioactive Fish From The
+Simpsons"):
+
+- Backdoor for us to see your shit
+- UI Enhancements: Frames, <BLINK>
+
+Feedback ========
+
+Must you? Really?
+
+Credits =======
+
+We'd rather not be personally associated with this project for reasons
+of taste and complicity.
